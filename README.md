@@ -23,6 +23,7 @@ http://localhost:8000/api/v1
 3. Launh the frontend
 
 ```bash
-npm run dev
+docker build -t movies-spa .
+docker run -p 3000:80 movies-spa
 ```
 
